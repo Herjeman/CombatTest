@@ -46,6 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f54f54dff3c1df4785598b6518176c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _gravity: 0.05
+  _moveSpeed: 0.01
+  _strafeSpeed: 0.005
+  _rotationSpeed: 0.75
 --- !u!143 &6293447948206945797
 CharacterController:
   m_ObjectHideFlags: 0
@@ -63,7 +67,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: -0.12, z: 0}
+  m_Center: {x: 0, y: -0.06, z: 0}
 --- !u!1001 &5168511950709925863
 PrefabInstance:
   m_ObjectHideFlags: 0

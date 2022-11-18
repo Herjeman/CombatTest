@@ -18,6 +18,12 @@ public class InputManager : MonoBehaviour
         _playerController.SetMoveVector(context.ReadValue<Vector2>());
     }
 
+    public void Look(InputAction.CallbackContext context)
+    {
+        Debug.Log("Look input");
+        _playerController.SetRotationValue(context.ReadValue<Vector2>().x);
+    }
+
     public void Stance(InputAction.CallbackContext context)
     {
         if (context.performed)

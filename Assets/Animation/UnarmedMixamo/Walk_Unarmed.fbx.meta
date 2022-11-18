@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1ee369bac5baf84ea11806aa0d8e6d9
+guid: d65ad80754b150142a086c3bfe3d81ad
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
@@ -40,7 +40,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 180
+      lastFrame: 44
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -59,15 +59,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.08293459
-        functionName: StanceIsDown
-        data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 6e46b659dae845b48b8d724ed577f87d,
-          type: 3}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
